@@ -1,0 +1,141 @@
+{D:/3_stage_pipeline - Copy/instruction_memory.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/3_stage_pipeline - Copy/instruction_memory.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module instruction_memory
+
+Top level modules:
+	instruction_memory
+
+} {} {}} {D:/3_stage_pipeline - Copy/data_memory.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/3_stage_pipeline - Copy/data_memory.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module data_memory
+
+Top level modules:
+	data_memory
+
+} {} {}} {D:/3_stage_pipeline - Copy/dm_mux.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/3_stage_pipeline - Copy/dm_mux.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module data_memory_mux
+
+Top level modules:
+	data_memory_mux
+
+} {} {}} {D:/3_stage_pipeline - Copy/alu.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/3_stage_pipeline - Copy/alu.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {D:/3_stage_pipeline - Copy/pipe_line_2_reg.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/3_stage_pipeline - Copy/pipe_line_2_reg.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module pipe_line_2_reg
+
+Top level modules:
+	pipe_line_2_reg
+
+} {} {}} {D:/3_stage_pipeline - Copy/pc.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/3_stage_pipeline - Copy/pc.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} {D:/3_stage_pipeline - Copy/branch_condition.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/3_stage_pipeline - Copy/branch_condition.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module branch_condition
+
+Top level modules:
+	branch_condition
+
+} {} {}} {D:/3_stage_pipeline - Copy/register_file.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/3_stage_pipeline - Copy/register_file.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module register_file
+
+Top level modules:
+	register_file
+
+} {} {}} {D:/3_stage_pipeline - Copy/first_pipe_line.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/3_stage_pipeline - Copy/first_pipe_line.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module first_pipe_line
+
+Top level modules:
+	first_pipe_line
+
+} {} {}} {D:/3_stage_pipeline - Copy/forward_A_mux.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/3_stage_pipeline - Copy/forward_A_mux.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module forward_A_mux
+
+Top level modules:
+	forward_A_mux
+
+} {} {}} {D:/3_stage_pipeline - Copy/rs2_immediate_mux.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/3_stage_pipeline - Copy/rs2_immediate_mux.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module rs2_immediate_mux
+
+Top level modules:
+	rs2_immediate_mux
+
+} {} {}} {D:/3_stage_pipeline - Copy/bc_pc_mux.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/3_stage_pipeline - Copy/bc_pc_mux.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module bc_pc_mux
+
+Top level modules:
+	bc_pc_mux
+
+} {} {}} {D:/3_stage_pipeline - Copy/rs1_pc_mux.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/3_stage_pipeline - Copy/rs1_pc_mux.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module rs1_pc_mux
+
+Top level modules:
+	rs1_pc_mux
+
+} {} {}} {D:/3_stage_pipeline - Copy/single_cycle_processor_r_type.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/3_stage_pipeline - Copy/single_cycle_processor_r_type.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module single_cycle_processor
+
+Top level modules:
+	single_cycle_processor
+
+} {} {}} {D:/3_stage_pipeline - Copy/controller.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/3_stage_pipeline - Copy/controller.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} {D:/3_stage_pipeline - Copy/forward_B_mux.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/3_stage_pipeline - Copy/forward_B_mux.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module forward_B_mux
+
+Top level modules:
+	forward_B_mux
+
+} {} {}} {D:/3_stage_pipeline - Copy/test_bench.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/3_stage_pipeline - Copy/test_bench.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module single_cycle_processor_tb
+
+Top level modules:
+	single_cycle_processor_tb
+
+} {} {}} {D:/3_stage_pipeline - Copy/pc_with_four.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/3_stage_pipeline - Copy/pc_with_four.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module pc_with_four
+
+Top level modules:
+	pc_with_four
+
+} {} {}} {D:/3_stage_pipeline - Copy/pc_dm_with_4.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/3_stage_pipeline - Copy/pc_dm_with_4.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module pc_dm_with_four
+
+Top level modules:
+	pc_dm_with_four
+
+} {} {}} {D:/3_stage_pipeline - Copy/ImmediateGen.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/3_stage_pipeline - Copy/ImmediateGen.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module immediate
+
+Top level modules:
+	immediate
+
+} {} {}}

@@ -1,0 +1,16 @@
+00000293  # li t1, 5
+00000313  # li t2, 10
+006282b3  # add t3, t1, t2
+40630333  # sub t4, t3, t1
+00000393  # li t5, 0
+00000413  # li t6, 0
+00000513  # li a0, 0
+02c56a63  # bge a0, t2, div_loop
+0093a023  # add t5, t5, t4
+00150513  # addi a0, a0, 1
+ffc0006f  # j mul_loop
+02b3c263  # blt t5, t1, end
+4093a023  # sub t5, t5, t1
+00140413  # addi t6, t6, 1
+ff40006f  # j div_loop
+0000006f  # j end
